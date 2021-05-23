@@ -1,7 +1,7 @@
 console.log("hello");
 
 
-let name="yeshang";
+let name="hahaha";
 console.log(name);
 
 
@@ -24,5 +24,6 @@ function sum(n){
     }
     return sum;
 }
-console.log(sum(10))
+console.log(sum(10));
 //--------------------
+
