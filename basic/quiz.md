@@ -24,7 +24,7 @@ console.log("start");
 console.log("end");
 // (3) 請問下列程式執行的結果為何？為什麼？
 
-onst bar = () => console.log("bar");
+const bar = () => console.log("bar");
 
 const baz = () => console.log("baz");
 
@@ -37,7 +37,7 @@ const foo = () => {
 foo();
 // (4) 請問下列程式執行的結果為何？為什麼？
 
-onst bar = () => console.log("bar");
+const bar = () => console.log("bar");
 
 const baz = () => console.log("baz");
 
