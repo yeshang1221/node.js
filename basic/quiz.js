@@ -23,13 +23,13 @@ console.log("start");
 console.log("end");
 
 
-const bar = () => console.log("bar");
+const bar1 = () => console.log("bar");
 
 const baz = () => console.log("baz");
 
 const foo = () => {
     console.log("foo");
-    bar();
+    bar1();
     baz();
 };
 
