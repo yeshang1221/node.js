@@ -1,5 +1,5 @@
 <!-- (1) 請問下列程式執行後的結果為何？為什麼？ -->
-<script>
+
 console.log("start");
 
 (function () {
@@ -10,7 +10,7 @@ console.log("start");
 })();
 
 console.log("end");
-// (2) 請問下列程式執行的結果為何？為什麼？
+(2) 請問下列程式執行的結果為何？為什麼？
 
 console.log("start");
 
@@ -49,4 +49,3 @@ const foo = () => {
 
 foo();
 
-</script>
