@@ -13,6 +13,10 @@ const axios = require("axios");
 // filesystem
 // npm i fs ??? -> 不用
 const fs = require("fs");
+const moment = require("moment");
+// console.log(moment().format());
+// console.log(moment().format("YYYYMMDD"));
+
 function readFilePromise(){
     return new Promise((resolve,reject) => {
         fs.readFile("stock.txt", "utf8", (err, data) => {
@@ -28,7 +32,7 @@ readFilePromise()
     return axios.get("https://www.twse.com.tw/exchangeReport/STOCK_DAY", {
         params: {
           response: "json",
-          date: "20210523",
+          date: moment().format("YYYYMMDD"),
           stockNo: data,
         },
       });
